@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 
 
 # Load the SpaceX launch data
-df = pd.read_csv('C:/Users/reube/Downloads/spacex_dataset.csv')
+df = pd.read_csv(r'C:\Users\Tatenda\Downloads\spacex_launch_dash.csv')
 
 # Custom CSS to change the font family to Roboto
 st.markdown(
